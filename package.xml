@@ -1,0 +1,15 @@
+<package>
+
+  <name>i3dr_vapp_control</name>
+  <version>0.3.0</version>
+  <description>
+     I3DR ROS control pacakge for visually assisted pick and place
+  </description>
+  <author email="bknight@i3drobotics.com">bknight</author>
+  <maintainer email="bknight@i3drobotics.com">bknight</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

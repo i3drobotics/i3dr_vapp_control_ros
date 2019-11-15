@@ -1,0 +1,10 @@
+<launch>
+
+    <include file="$(find i3dr_vapp_control)/launch/ur10_bringup.launch">
+        <arg name="robot_ip" value="172.16.1.58"/>
+        <arg name="prefix" value="vapp_robot_arm_"/>
+    </include>
+    <include file="$(find i3dr_vapp_control)/launch/ur10_moveit_planning_execution.launch"/>
+    <include file="$(find robotiq_2f_gripper_control)/launch/robotiq_2f_gripper_ethercat.launch"/>
+
+</launch>
